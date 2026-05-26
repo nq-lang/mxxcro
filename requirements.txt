@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# MACRO TERMINAL  //  requirements.txt
+# Generated for Streamlit Cloud / Railway / Render deployment.
+# All versions pinned to last known-good; upgrade cautiously.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core Streamlit runtime ────────────────────────────────────────────────────
+streamlit>=1.35.0,<2.0.0
+
+# ── Data & numerics ───────────────────────────────────────────────────────────
+pandas>=2.1.0,<3.0.0
+numpy>=1.26.0,<2.0.0
+
+# ── Async HTTP client (core data pipeline + Crucix OSINT stream fetcher) ──────
+aiohttp>=3.9.0,<4.0.0
+
+# ── Synchronous HTTP (FRED, Yahoo Finance, OpenSky, misc) ─────────────────────
+requests>=2.31.0,<3.0.0
+
+# ── RSS feed parser (Crucix news ticker + OSINT feed aggregator) ──────────────
+feedparser>=6.0.10,<7.0.0
+
+# ── Translation engine (non-English OSINT headlines → English) ───────────────
+deep-translator>=1.11.4,<2.0.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+plotly>=5.20.0,<6.0.0
+pydeck>=0.8.1,<1.0.0
+
+# ── Timezone support (market session status) ──────────────────────────────────
+pytz>=2024.1
+
+# ── Yahoo Finance unofficial wrapper (optional — used in some helper fns) ─────
+yfinance>=0.2.38,<1.0.0
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Optional / upgrade paths (uncomment when API keys are injected):
+#
+# FinBERT sentiment (replaces lexicon engine):
+#   transformers>=4.40.0
+#   torch>=2.2.0
+#
+# DeepL translation (higher quality than deep-translator):
+#   deepl>=1.18.0
+#
+# Telegram OSINT channel listener (replaces rsshub.app stubs):
+#   telethon>=1.36.0
+#
+# Whale Alert on-chain tracking:
+#   (no pip package — use requests with WHALE_ALERT_KEY)
+#
+# Polygon.io (live market data upgrade):
+#   (no pip package — use requests with POLYGON_KEY)
+#
+# Discord bot (port Crucix discord.mjs → discord.py):
+#   discord.py>=2.3.2
+# ─────────────────────────────────────────────────────────────────────────────
