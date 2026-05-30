@@ -54,7 +54,7 @@ logging.basicConfig(level=logging.ERROR)
 # §0  PAGE CONFIG  (must be first Streamlit call)
 # ═════════════════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="MACROtypeshi"
+    page_title="MACROtypeshi",
     page_icon="🌏",
     layout="wide",
     initial_sidebar_state="collapsed",
