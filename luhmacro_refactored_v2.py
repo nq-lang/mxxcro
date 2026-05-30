@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  MACRO TERMINAL  //  Institutional Intelligence Platform  v5.0                      ║
+║  MACRO  ne nc                ║
 ║  Architecture : Streamlit + Plotly + Async Multi-Source Data Engine                 ║
 ║                                                                                     ║
 ║  Live Data Sources:                                                                 ║
@@ -54,8 +54,8 @@ logging.basicConfig(level=logging.ERROR)
 # §0  PAGE CONFIG  (must be first Streamlit call)
 # ═════════════════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="MACRO TERMINAL",
-    page_icon="⚡",
+    page_title="MACROtypeshi"
+    page_icon="🌏",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
