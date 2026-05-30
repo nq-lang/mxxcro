@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 ╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  MACRO  ne nc                ║
+║  MACRO                                                                              ║
 ║  Architecture : Streamlit + Plotly + Async Multi-Source Data Engine                 ║
 ║                                                                                     ║
 ║  Live Data Sources:                                                                 ║
-║    • FRED (St. Louis Fed)  — Macro indicators, yield curve, CPI, GDP               ║
+║    • FRED (St. Louis Fed)  — Macro indicators, yield curve, CPI, GDP                ║
 ║    • Polygon.io            — Real-time US equity snapshots & OHLCV bars             ║
 ║    • Alpha Vantage         — Technical indicators (RSI, BBANDS, SMA/EMA)            ║
 ║    • Finnhub               — Real-time quotes, company fundamentals                 ║
