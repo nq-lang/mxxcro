@@ -54,8 +54,8 @@ logging.basicConfig(level=logging.ERROR)
 # §0  PAGE CONFIG  (must be first Streamlit call)
 # ═════════════════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="MACRO TERMINAL",
-    page_icon="⚡",
+    page_title="MacroIsLaw",
+    page_icon="👁️",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
